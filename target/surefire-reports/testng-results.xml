@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-17T18:43:57 IST" name="Suite" finished-at="2023-04-17T18:44:45 IST" duration-ms="48169">
+    <groups>
+    </groups>
+    <test started-at="2023-04-17T18:43:57 IST" name="Test" finished-at="2023-04-17T18:44:45 IST" duration-ms="48169">
+      <class name="Tests.Login">
+        <test-method is-config="true" signature="browseapp()[pri:0, instance:Tests.Login@242b836]" started-at="2023-04-17T18:43:57 IST" name="browseapp" finished-at="2023-04-17T18:44:03 IST" duration-ms="6137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browseapp -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Tests.Login@242b836]" started-at="2023-04-17T18:44:03 IST" name="login" data-provider="datamethod" finished-at="2023-04-17T18:44:17 IST" duration-ms="13911" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Anusha]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12453]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Failure]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="closure()[pri:0, instance:Tests.Login@242b836]" started-at="2023-04-17T18:44:17 IST" name="closure" finished-at="2023-04-17T18:44:18 IST" duration-ms="748" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closure -->
+        <test-method is-config="true" signature="browseapp()[pri:0, instance:Tests.Login@242b836]" started-at="2023-04-17T18:44:18 IST" name="browseapp" finished-at="2023-04-17T18:44:22 IST" duration-ms="4323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browseapp -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Tests.Login@242b836]" started-at="2023-04-17T18:44:22 IST" name="login" data-provider="datamethod" finished-at="2023-04-17T18:44:26 IST" duration-ms="4032" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[anushatest123@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Success]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="closure()[pri:0, instance:Tests.Login@242b836]" started-at="2023-04-17T18:44:26 IST" name="closure" finished-at="2023-04-17T18:44:27 IST" duration-ms="754" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closure -->
+        <test-method is-config="true" signature="browseapp()[pri:0, instance:Tests.Login@242b836]" started-at="2023-04-17T18:44:27 IST" name="browseapp" finished-at="2023-04-17T18:44:30 IST" duration-ms="3567" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browseapp -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Tests.Login@242b836]" started-at="2023-04-17T18:44:30 IST" name="login" data-provider="datamethod" finished-at="2023-04-17T18:44:44 IST" duration-ms="13854" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kanishk@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kanishk]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Failure]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="closure()[pri:0, instance:Tests.Login@242b836]" started-at="2023-04-17T18:44:44 IST" name="closure" finished-at="2023-04-17T18:44:45 IST" duration-ms="777" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closure -->
+      </class> <!-- Tests.Login -->
+      <class name="Tests.TestTwo">
+        <test-method signature="testTwo()[pri:0, instance:Tests.TestTwo@272113c4]" started-at="2023-04-17T18:43:57 IST" name="testTwo" finished-at="2023-04-17T18:43:57 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTwo -->
+      </class> <!-- Tests.TestTwo -->
+      <class name="Tests.TestThree">
+        <test-method signature="testThree()[pri:0, instance:Tests.TestThree@783a467b]" started-at="2023-04-17T18:43:57 IST" name="testThree" finished-at="2023-04-17T18:43:57 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testThree -->
+      </class> <!-- Tests.TestThree -->
+      <class name="Tests.TestFour">
+        <test-method signature="testFour()[pri:0, instance:Tests.TestFour@4b0d79fc]" started-at="2023-04-17T18:43:57 IST" name="testFour" finished-at="2023-04-17T18:43:57 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFour -->
+      </class> <!-- Tests.TestFour -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
